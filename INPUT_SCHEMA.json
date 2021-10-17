@@ -1,14 +1,14 @@
 {
-    "title": "Input schema for the apify_project actor.",
+    "title": "PuppeteerCrawler Template",
     "type": "object",
     "schemaVersion": 1,
     "properties": {
-        "test": {
-            "title": "Test",
+        "actorNameText": {
+            "title": "Actor Name Text",
             "type": "string",
-            "description": "There is testing input field description.",
-            "editor": "textfield"
+            "description": "Text included in names of target actors.",
+            "editor": "textfield",
+            "prefill": "my-awesome"
         }
-    },
-    "required": []
+    }
 }
